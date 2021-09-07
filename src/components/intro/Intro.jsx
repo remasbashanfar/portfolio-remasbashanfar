@@ -29,6 +29,7 @@ export default function Intro() {
           <h3>
               <span ref={textRef}></span>
           </h3>
+          <br/>
           <a href="https://drive.google.com/file/d/1XwE_XKyMycRgk5rAIxCbE_5QHiNic2tW/view?usp=sharing" className="button">
          <button class="button">View Resume
          </button>
