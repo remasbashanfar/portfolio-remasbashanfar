@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { Instagram, PhotoCamera, GitHub, Mail, LinkedIn } from "@material-ui/icons";
+import {Instagram,GitHub,Mail,LinkedIn} from "@material-ui/icons";
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
